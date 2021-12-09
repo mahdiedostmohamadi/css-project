@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 3px;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}

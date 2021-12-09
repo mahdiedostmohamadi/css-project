@@ -1,0 +1,126 @@
+nav {
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(214, 214, 214);
+}
+.navlink {
+    padding: 15px;
+}
+
+.signup-login-button {
+    border: 1px solid green;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    min-width: fit-content;
+    height: 400px;
+}
+
+main {
+    background-color: rgb(214, 214, 214);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* .product {
+    width: 250px;
+    height: 350px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+    background-color: white;
+    flex-flow: row wrap;
+    position: relative;
+} */
+.fa-star {
+    color: gold;
+}
+.offer {
+    background-color: hotpink;
+    border-radius: 10px;
+    color: white;
+    padding: 1px;
+}
+
+.product .img {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 7px;
+    position: absolute;
+    right: 8%;
+    top: -2%;
+    z-index: 1;
+}
+
+.img-sec {
+    
+
+        width: 250px;
+        height: 350px;
+        margin: 10px;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        margin-bottom: 25px;
+        background-color: white;
+        flex-flow: row wrap;
+        position: relative;
+    
+}
+.stars,
+.offer {
+    padding: 5px;
+    z-index: 2;
+}
+.stars {
+    align-self: flex-start;
+}
+.offer {
+    align-self: flex-end;
+}
+
+.product {
+    posision: relative;
+}
+
+.product .button {
+    position: relative;
+    bottom: 5px;
+}
+.fa-heart , .fa-shopping-cart{
+    border-radius: 5px;
+    transition: width ease-in-out 2s;
+    background-color: turquoise;
+}
+.fa-heart:hover{  
+    width: 50px;
+
+}
+.fa-shopping-cart:hover{
+    width: 50px;
+
+}
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
